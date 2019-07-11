@@ -4,28 +4,15 @@ mostrar el importe con un Descuento del 25 %
 en el cuadro de texto "RESULTADO"*/
 function mostrarAumento()
 {
-	var valorImporte;
-	var ValorResultado;
-	/*valorImporte="lalala";
-	alert(valorImporte);*/
-	valorImporte=document.getElementById('importe').value;
-	console.info("el.valor",valorImporte);
-	//alert(valorImporte);
+  var a; //importe
+  var b; //resultado
 
-	var datoUno;
-	var datoDos;
-	var suma;
-	datoUno=prompt();
-	datoDos=document.
-	
-	datoUno =parseInt(datoUno);
-	datoDos=parseInt(datoDos);
-	
-	suma=datoUno+datoDos;
-	alert("la suma
+  a=document.getElementById("importe").value;
+  b=document.getElementById("resultado").value;
 
-	ValorResultado=valorImporte*100;
-	//alert(ValorResultado);
-	document.getElementById('resultado').value=ValorResultado;
+  a=parseInt(a);
+  b=parseInt(a) * 0.25 +(a);
+
+  document.getElementById("resultado").value=b;
 
 }
