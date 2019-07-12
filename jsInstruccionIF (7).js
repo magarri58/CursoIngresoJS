@@ -2,9 +2,10 @@ function mostrar()
 {
 //tomo la edad
 var edad;
+var estadoCivl;
+
 edad=document.getElementById("edad").value;
-if(edad>=18)
-alert("El dato ingresado indica que la persona es mayor de edad");
+estadoCivil=document.getElementById("estadoCivil").value;
 
 
 
